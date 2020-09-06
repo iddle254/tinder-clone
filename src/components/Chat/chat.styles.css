@@ -1,10 +1,22 @@
-.card {
-  position: relative;
-  width: 600px;
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
-  max-width: 85vw;
-  height: 50vh;
-  border-radius: 20px;
-  background-size: cover;
-  background-position: center;
+  height: 70px;
+  border-bottom: 1px solid #f3f2f2;
+}
+.chat__message {
+  flex: 1;
+}
+.chat__message > p {
+  color: grey;
+}
+
+.chat__timestamp {
+  color: lightgrey;
+}
+
+.chat__image {
+  margin-right: 20px;
 }
