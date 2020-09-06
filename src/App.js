@@ -26,7 +26,7 @@ function App() {
             path="/chat/:person"
             render={() => (
               <>
-                <Header backButton="/chat" />
+                <Header backButton="/chats" />
                 <ChatScreen />
               </>
             )}

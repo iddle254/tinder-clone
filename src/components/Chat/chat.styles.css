@@ -9,6 +9,10 @@
 .chat__message {
   flex: 1;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .chat__message > p {
   color: grey;
 }
