@@ -6,8 +6,8 @@ const Chats = () => {
     <div>
       <h1>chats</h1>
       <Chat
-        name="Charles"
-        message="Yooo looking fire"
+        name="Megan"
+        message="sure...bet"
         timestamp="1 day a go"
         profilePic="..."
       />
